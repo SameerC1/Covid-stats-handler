@@ -1,5 +1,5 @@
 #imported to clear the screen
-import os
+import time,os
 #function to get the name of each city
 #function to get the population of each city
 def getcities(numofcities,cities):
@@ -26,6 +26,7 @@ def getpop(numofcities, cities, population):
       
     except ValueError:
       print("Invalid input.");
+      time.sleep(2)
       os.system('clear');
       continue;
   os.system('clear');
