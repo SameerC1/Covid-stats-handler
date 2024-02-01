@@ -11,11 +11,6 @@ def printstats(var,name,numofcities,cities):
   anyinput=input("Press any key to continue\n");
   os.system('clear');
 #gets the input from the user
-def getinput(userinput):
-  while True:
-    try:
-      userinput=int(input("What would you like to do?\n1. See a statistic\n2.See which step of the covid framework each city should follow\n3.See the mean, median, mode for a statistic.\nEnter any other number to exit"));  
-      return userinput;
   
     except ValueError:
       print("Invalid number");
