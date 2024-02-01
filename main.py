@@ -1,6 +1,6 @@
-from getvariables import getpop, getstat,getcities;
+from getvariables import getpop, getstat,getcities,getinput;
 from calculations import infection, casefatalityrate,positivityrate,incidenceper100k,meanmedianmode;
-from statfunctions import getinput, printstats,framework;
+from statfunctions import printstats,framework;
 
 #variables to be collected
 cities=[];
