@@ -18,6 +18,7 @@ names=["cases","tests this week","incidences this week","fatalities","Infection 
 #do while loop to get amount of cities, between 1-5.
 #if there is a value error, python will continue
 #from beginning of the loop
+print("Hello, welcome to the COVID-19 Response advisor\n")
 while True:
   try:
     numofcities=int(input(("How many cities will there be? Max amount is 5.\n")));
