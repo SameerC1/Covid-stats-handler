@@ -10,7 +10,6 @@ def printstats(var,name,numofcities,cities):
     time.sleep(2);
   anyinput=input("Press any key to continue\n");
   os.system('clear');
-#gets the input from the user
   
     except ValueError:
       print("Invalid number");
